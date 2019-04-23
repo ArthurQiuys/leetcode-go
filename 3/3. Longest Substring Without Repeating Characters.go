@@ -2,7 +2,7 @@
 * @Author: qiuyu
 * @Date:   2019-04-23 23:31:57
 * @Last Modified by:   qiuyu
-* @Last Modified time: 2019-04-23 23:32:47
+* @Last Modified time: 2019-04-23 23:34:03
 */
 func lengthOfLongestSubstring(s string) int {
     array := [256]int{}
