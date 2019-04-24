@@ -2,7 +2,7 @@
 * @Author: qiuyu
 * @Date:   2019-04-24 02:01:32
 * @Last Modified by:   qiuyu
-* @Last Modified time: 2019-04-24 02:01:59
+* @Last Modified time: 2019-04-24 17:36:16
 */
 import (
 	"math"
@@ -57,3 +57,4 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
     }
     return 0
 }
+//自闭
