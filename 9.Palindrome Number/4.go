@@ -2,7 +2,7 @@
 * @Author: qiuyu
 * @Date:   2019-04-26 03:24:28
 * @Last Modified by:   qiuyu
-* @Last Modified time: 2019-04-26 03:25:01
+* @Last Modified time: 2019-04-26 03:25:09
 */
 func isPalindrome(x int) bool {
 	var s int
