@@ -2,7 +2,7 @@
 * @Author: qiuyu
 * @Date:   2019-04-27 02:15:46
 * @Last Modified by:   qiuyu
-* @Last Modified time: 2019-04-27 02:16:06
+* @Last Modified time: 2019-04-27 02:16:12
 */
 func multiply(num1 string, num2 string) string {
     res := make([]int,len(num1)+len(num2))
