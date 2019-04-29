@@ -2,7 +2,7 @@
 * @Author: qiuyu
 * @Date:   2019-04-29 19:21:24
 * @Last Modified by:   qiuyu
-* @Last Modified time: 2019-04-29 19:43:15
+* @Last Modified time: 2019-04-30 00:14:55
 */
 package main
 import (
@@ -18,7 +18,7 @@ func subsets(nums []int) [][]int {
     	 lens := len(res)
     	// var res []int
     	for j := 0; j < lens; j++ {
-    		temp := make([]int, len(res))
+    		temp := make([]int, len(res[j]))
     		copy(temp, res[j])
     		temp = append(temp, i)
     		res = append(res,temp)
