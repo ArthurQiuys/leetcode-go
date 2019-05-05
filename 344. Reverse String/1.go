@@ -2,7 +2,7 @@
 * @Author: qiuyu
 * @Date:   2019-05-05 18:35:16
 * @Last Modified by:   qiuyu
-* @Last Modified time: 2019-05-05 18:39:35
+* @Last Modified time: 2019-05-05 18:57:17
 */
 package main
 
@@ -15,6 +15,7 @@ func reverseString(s []byte)  {
     	t:= s[left]
     	s[left] = s[right]
     	s[right] = t
+    	left ++
+    	right --
     }
-    return s
 }
