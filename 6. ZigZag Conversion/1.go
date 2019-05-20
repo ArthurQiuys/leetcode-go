@@ -2,7 +2,7 @@
 * @Author: qiuyu
 * @Date:   2019-05-18 23:35:51
 * @Last Modified by:   qiuyu
-* @Last Modified time: 2019-05-18 23:48:30
+* @Last Modified time: 2019-05-20 23:24:07
 */
 package main
 
@@ -26,7 +26,7 @@ func convert(s string, numRows int) string {
     			res += s[tmp]
     		}
     	}
-    	return res
+    	
     }
     return res
 }
